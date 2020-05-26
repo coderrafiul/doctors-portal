@@ -1,0 +1,30 @@
+.ship-form{
+    margin: 30px 100px;
+
+}
+
+.ship-form input{
+    display: block;
+    width: 350px;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.ship-form select{
+    display: block;
+    width: 350px;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input.btn-submit{
+    background-color: lightseagreen;
+    color: white;
+    font-weight: 400;
+}

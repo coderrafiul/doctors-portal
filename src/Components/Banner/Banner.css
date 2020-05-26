@@ -1,12 +1,13 @@
 .header{
     text-align: right;
-    margin: 50px;
+    padding: 80px;
 }
 
 
 .header nav a{
     margin: 10px;
-    padding: 5px;
+    padding: 25px;
+    font-size: larger;
     text-decoration: none;
 }
 
@@ -15,4 +16,16 @@
     margin-top: 100px;
     margin-left: 10px;
     text-align: left;
+}
+
+.mask1 img{
+    width: 130%;
+    margin-top: 50px;
+}
+
+.top-banner{
+    background-image: url("../../images/MaskGroup2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
 }
