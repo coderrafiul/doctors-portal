@@ -34,14 +34,14 @@ const Appointment = (props) => {
                <div className="row">
                    <div className="col-md-6">
                         <div className="appointment">
-                            <h1>APPOINTMENT</h1>
+                            <h3>APPOINTMENT</h3>
                             <div>
                               <Calendar  onChange={onChange} value={date}/>
                             </div>
                         </div>
                    </div>
-                   <div className="col-md-6 mask1">
-                            <img src={MaskGroup1} alt="patient's chair"/>
+                   <div className="col-md-6">
+                            <img id="mask1" src={MaskGroup1} alt="patient's chair"/>
                    </div>
                </div>
 

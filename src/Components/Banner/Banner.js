@@ -14,7 +14,7 @@ const Banner = () => {
                <div className="row">
                    <div className="col-md-6">
                         <div className="appointment">
-                            <h1>Your New Smile Starts Here</h1>
+                            <h1>Your New Smile <br/> Starts Here</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium blanditiis eveniet accusamus nulla itaque? Cupiditate accusamus iure tempora deserunt alias optio cum enim distinctio illo!</p>
                             <br/>
                             <Link to="/appointment">
@@ -23,7 +23,7 @@ const Banner = () => {
                         </div>
                    </div>
                    <div className="col-md-6 mask1">
-                            <img src={MaskGroup1} alt="patient's chair"/>
+                            <img id="mask1" src={MaskGroup1} alt="patient's chair"/>
                    </div>
                </div>
            </div> 

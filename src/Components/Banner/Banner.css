@@ -1,27 +1,7 @@
-.header{
-    text-align: right;
-    padding: 80px;
-}
 
 
-.header nav a{
-    margin: 10px;
-    padding: 25px;
-    font-size: larger;
-    text-decoration: none;
-    color: rgb(56,66,86);
-    font-weight: 700;
-}
-
-.appointment{
-    width: 350px;
-    margin-top: 100px;
-    margin-left: 10px;
-    text-align: left;
-}
-
-.mask1 img{
-    width: 130%;
+#mask1{
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -29,6 +9,7 @@
     background-image: url("../../images/MaskGroup2.png");
     background-repeat: no-repeat;
     background-size: contain;
+    height: 100vh;
 }
 
 .btn-banner{
