@@ -4,6 +4,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './Appointment.css'
 import ServiceCard from '../ServiceCard/ServiceCard';
+import Header from '../Header/Header';
 
 
 const Appointment = (props) => {
@@ -28,7 +29,7 @@ const Appointment = (props) => {
     
     return (
         <div className='top-banner'>
-         
+                <Header></Header>
            <div className="container">
                <div className="row">
                    <div className="col-md-6">
@@ -48,7 +49,7 @@ const Appointment = (props) => {
            <div>
                {console.log(date)}
                <div className="date">
-               <h3>Available appointments on {date.toDateString()}</h3>
+               <h3>Available appointments on-  {date.toDateString()}</h3>
                </div>
                <div className="container">
                    <div className="row d-flex justify-content-between">

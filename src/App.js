@@ -10,9 +10,9 @@ import {
   Link
 } from "react-router-dom";
 import AppointmentForm from './Components/AppointmentForm/AppointmentForm';
-import department from './Data/OurServices'
-import Header from './Components/Header/Header';
-import DoctorsOnly from './Components/DoctorsOnly/DoctorsOnly';
+import department from './Data/OurServices';
+import DoctorsAppointments from './Components/DoctorsOnly/DoctorsAppointments';
+import DoctorsDashboard from './Components/DoctorsOnly/DoctorsDashboard';
 
 
 
@@ -21,6 +21,7 @@ function App() {
   const[card, setCard]= useState(department);
   const[date, setaDate]= useState(new Date());
   const [appointment, setAppointment]= useState(null);
+  const[patientsInfo, setPatientsInfo]= useState([]);
 
   console.log(card)
   
@@ -28,8 +29,6 @@ function App() {
     
         <Router>
             <div className="App">
-              <Header></Header>
-            
                 <Switch>
                     <Route exact path='/'>
                         <Banner></Banner>
@@ -41,8 +40,11 @@ function App() {
                     <Route path= '/form'>
                       <AppointmentForm appointment={appointment} card={card} date={date}></AppointmentForm>
                     </Route>
-                    <Route path='/doctors'>
-                      <DoctorsOnly></DoctorsOnly>
+                    <Route path='/doctors/appointments'>
+                      <DoctorsAppointments patientsInfo={patientsInfo} setPatientsInfo={setPatientsInfo}></DoctorsAppointments>
+                    </Route>
+                    <Route path='/doctors/dashboard'>
+                      <DoctorsDashboard patientsInfo={patientsInfo}></DoctorsDashboard>
                     </Route>
                 </Switch>
             </div>

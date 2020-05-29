@@ -9,6 +9,8 @@
     padding: 25px;
     font-size: larger;
     text-decoration: none;
+    color: rgb(56,66,86);
+    font-weight: 700;
 }
 
 .appointment{
@@ -27,5 +29,31 @@
     background-image: url("../../images/MaskGroup2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+}
+
+.btn-banner{
+    background-image: linear-gradient(40deg, #19d3ae,#0fcfec);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.card-banner{
+  margin-top: 80px;
+  border-radius: 5px;
+  color: white;
+}
+
+.bannerCard1{
+ background-color: rgb(28,199,193) ;
+}
+
+.bannerCard2{
+background-color:  rgb(56,66,86);
+}
+
+.bannerCard3{
+background-color:  rgb(28,199,193);
 }
