@@ -5,8 +5,8 @@ select option{
 .summary{
     width: 95%;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .summary-card{
@@ -16,7 +16,7 @@ select option{
 }
 
 .summary-card h5{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
 }
 

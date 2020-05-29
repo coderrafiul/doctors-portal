@@ -17,28 +17,28 @@ const DoctorsDashboard = (props) => {
                         <SideBar></SideBar>
                             <div className="col-md-10">
                                <div className= 'summary d-flex justify-content-between'>
-                                    <div className="card summary-card pending-app" style={{width: 18+'rem'}}>
+                                    <div className="card summary-card pending-app" style={{width: 15+'rem'}}>
                                         <div className="card-body d-flex justify-content-center align-items-center">
                                             <h5 className="card-title">{formattedNumber}</h5>
                                             <h6 className="card-subtitle mb-2" style={{marginLeft: 20+ 'px'}}>Pending<br/>Appointments</h6>
                                         </div>
                                     </div>
 
-                                    <div className="card summary-card today-app" style={{width: 18+'rem'}}>
+                                    <div className="card summary-card today-app" style={{width: 15+'rem'}}>
                                         <div className="card-body d-flex justify-content-center align-items-center">
                                             <h5 className="card-title">{formattedNumber}</h5>
                                             <h6 className="card-subtitle mb-2" style={{marginLeft: 20+ 'px'}}>Today's<br/>Appointments</h6>
                                         </div>
                                     </div>
 
-                                    <div className="card summary-card total-app" style={{width: 18+'rem'}}>
+                                    <div className="card summary-card total-app" style={{width: 15+'rem'}}>
                                         <div className="card-body d-flex justify-content-center align-items-center">
                                             <h5 className="card-title">{formattedNumber}</h5>
                                             <h6 className="card-subtitle mb-2" style={{marginLeft: 20+ 'px'}}>Total<br/>Appointments</h6>
                                         </div>
                                     </div>
 
-                                    <div className="card summary-card total-pat" style={{width: 18+'rem'}}>
+                                    <div className="card summary-card total-pat" style={{width: 15+'rem'}}>
                                         <div className="card-body d-flex justify-content-center align-items-center">
                                             <h5 className="card-title">{formattedNumber}</h5>
                                             <h6 className="card-subtitle" style={{marginLeft: 20+ 'px'}}>Total<br/>Patients</h6>

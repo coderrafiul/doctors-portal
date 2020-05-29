@@ -28,21 +28,21 @@ const Banner = () => {
                </div>
            </div> 
            <div className="container  d-flex justify-content-between card-banner">
-           <div className="card serviceCard bannerCard1" style={{width: 18+ 'rem'}}>
+           <div className="card serviceCard bannerCard1" style={{width: 22+ 'rem'}}>
                 <div className="card-body">
                     <h5 className="card-title">Opening hours</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
 
-            <div className="card serviceCard bannerCard2" style={{width: 18+ 'rem'}}>
+            <div className="card serviceCard bannerCard2" style={{width: 22+ 'rem'}}>
                 <div className="card-body">
                     <h5 className="card-title">Visit our location</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet.</p>
                 </div>
             </div>
 
-            <div className="card serviceCard bannerCard3" style={{width: 18+ 'rem'}}>
+            <div className="card serviceCard bannerCard3" style={{width: 22+ 'rem'}}>
                 <div className="card-body">
                     <h5 className="card-title">Contact us now</h5>
                     <p className="card-text">Lorem ipsum dolor sit amet.</p>
